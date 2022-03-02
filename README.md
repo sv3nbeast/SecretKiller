@@ -1,7 +1,7 @@
 
 # XXX
 * 原项目:https://github.com/m4ll0k/SecretFinder
-* 不能遍历文件夹下的文件夹下的文件，改了一下，可以对反编译的小程序源码文件夹匹配正则了
+* 原项目不能遍历文件夹下的文件夹下的文件，改了一下，可以对反编译的小程序源码文件夹匹配正则了
 * python3 SecretKiller.py -i "file/*" ,使用这个可以匹配文件夹下的所有文件类型，除图片，其他功能没差别
 <img width="965" alt="image" src="https://user-images.githubusercontent.com/55974091/156319712-d589d09c-fea5-4e30-9e1a-2cc72b78d564.png">
 
