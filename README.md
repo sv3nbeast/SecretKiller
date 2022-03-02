@@ -1,4 +1,12 @@
 
+# XXX
+* 原项目:https://github.com/m4ll0k/SecretFinder
+* 不能遍历文件夹下的文件夹下的文件，改了一下，可以对反编译的小程序源码文件夹匹配正则了
+* python3 SecretKiller.py -i "file/*" ,使用这个可以匹配文件夹下的所有文件类型，除图片，其他功能没差别
+<img width="965" alt="image" src="https://user-images.githubusercontent.com/55974091/156319712-d589d09c-fea5-4e30-9e1a-2cc72b78d564.png">
+
+
+
 ## about SecretFinder
 
 SecretFinder is a python script based on [LinkFinder](https://github.com/GerbenJavado/LinkFinder), written to discover sensitive data like apikeys, accesstoken, authorizations, jwt,..etc in JavaScript files. It does so by using jsbeautifier for python in combination with a fairly large regular expression. The regular expressions consists of four small regular expressions. These are responsible for finding and search anything on js files.
@@ -6,13 +14,6 @@ SecretFinder is a python script based on [LinkFinder](https://github.com/GerbenJ
 The output is given in HTML or plaintext.
 
 ![main](https://i.imgur.com/D7MT2KL.png)
-
-## XXX
-* 原项目:https://github.com/m4ll0k/SecretFinder
-* 不能遍历文件夹下的文件夹下的文件，改了一下，可以对反编译的小程序源码文件夹匹配正则了
-* python3 SecretKiller.py -i "file/*" ,使用这个可以匹配文件夹下的所有文件类型，除图片，其他功能没差别
-<img width="965" alt="image" src="https://user-images.githubusercontent.com/55974091/156319712-d589d09c-fea5-4e30-9e1a-2cc72b78d564.png">
-
 
 ## Help
 
